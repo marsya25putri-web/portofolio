@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevada Batrisyia Marsya Putri - Junior Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo">Nevada Marsya</a>
+        <ul class="nav-menu">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#pendidikan">Pendidikan</a></li>
+            <li><a href="#keahlian">Kemampuan</a></li>
+            <li><a href="#karya">Project</a></li>
+            <li><a href="#kegiatan">Kegiatan</a></li>
+            <li><a href="#prestasi">Prestasi</a></li>
+            <li><a href="#sertifikat">Sertifikat</a></li>
+            <li><a href="#artikel">Artikel</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="document.querySelector('.nav-menu').classList.toggle('show')">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <p class="hero-label">HALO, SELAMAT DATANG</p>
+                <h1>Saya<br><span>Nevada Marsya</span></h1>
+                <p class="hero-sub">Calon Web Developer yang terus belajar dan berkembang</p>
+                <p class="hero-desc">
+                    Saya adalah siswi SMKN 1 Jenangan Ponorogo jurusan Rekayasa Perangkat Lunak 
+                    yang memiliki minat besar dalam pengembangan web.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#karya" class="btn"><i class="fas fa-th-large"></i> Lihat Project</a>
+                    <a href="#kontak" class="btn-outline"><i class="fas fa-paper-plane"></i> Kontak Saya</a>
+                </div>
+            </div>
+            <div class="hero-photo">
+                <div class="photo-frame">
+                    <img src="assets/images/foto-profil.jpg" alt="Nevada Marsya" onerror="this.src='https://via.placeholder.com/500x600?text=Foto+Profil'">
+                </div>
+                <div class="photo-decoration"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tentang -->
+<section class="section" id="tentang">
+    <div class="container">
+        <p class="section-label">TENTANG SAYA</p>
+        <h2 class="section-title">Profil Singkat</h2>
+        <div class="tentang-grid">
+            <div class="tentang-text">
+                <p class="tentang-lead">Saya <strong>Nevada Batrisyia Marsya Putri</strong>, siswi kelas XII RPL C di SMKN 1 Jenangan Ponorogo. Saya memiliki ketertarikan mendalam pada dunia pengembangan web, khususnya di bidang frontend dan backend.</p>
+                <p>Sejak masuk SMK, saya terus mempelajari berbagai teknologi web — mulai dari HTML, CSS, dan JavaScript, hingga PHP, MySQL, dan React. Saya percaya bahwa kemampuan coding dibangun melalui latihan konsisten dan keberanian untuk mencoba hal baru.</p>
+                <p>Selain akademik, saya aktif berorganisasi di Pramuka, PMR, dan Multimedia. Pengalaman ini membentuk saya menjadi pribadi yang disiplin, mampu bekerja dalam tim, dan siap menghadapi tantangan di dunia kerja.</p>
+                <div class="tentang-quote"><p>"Belajar hari ini, berkarya esok hari."</p></div>
+            </div>
+            <div class="tentang-info">
+                <div class="info-row-baru"><div class="info-icon"><i class="fas fa-graduation-cap"></i></div><div><span class="info-label-baru">Pendidikan</span><span class="info-value-baru">SMKN 1 Jenangan Ponorogo</span></div></div>
+                <div class="info-row-baru"><div class="info-icon"><i class="fas fa-laptop-code"></i></div><div><span class="info-label-baru">Jurusan</span><span class="info-value-baru">Rekayasa Perangkat Lunak</span></div></div>
+                <div class="info-row-baru"><div class="info-icon"><i class="fas fa-door-open"></i></div><div><span class="info-label-baru">Kelas</span><span class="info-value-baru">XII RPL C</span></div></div>
+                <div class="info-row-baru"><div class="info-icon"><i class="fas fa-map-marker-alt"></i></div><div><span class="info-label-baru">Domisili</span><span class="info-value-baru">Ponorogo, Jawa Timur</span></div></div>
+                <div class="info-row-baru"><div class="info-icon"><i class="fas fa-envelope"></i></div><div><span class="info-label-baru">Email</span><span class="info-value-baru">marsya25putri@gmail.com</span></div></div>
+                <div class="info-row-baru"><div class="info-icon"><i class="fab fa-whatsapp"></i></div><div><span class="info-label-baru">WhatsApp</span><span class="info-value-baru">0895-2408-5894</span></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Profil Profesional -->
+<section class="section section-alt" id="profil">
+    <div class="container">
+        <p class="section-label">PROFIL PROFESIONAL</p>
+        <h2 class="section-title">Peran & Bidang yang Ditekuni</h2>
+        <p class="section-desc">Peran profesional dan bidang keahlian yang saya geluti saat ini.</p>
+        
+        <div class="profil-card-wrapper">
+            <!-- Foto -->
+            <div class="profil-photo-side">
+                <div class="profil-photo-box">
+                    <img src="assets/images/foto-formal.jpg" alt="Nevada Marsya" onerror="this.src='https://via.placeholder.com/400x500/f2e8dc/b8926a?text=Foto+Formal'">
+                </div>
+                <div class="profil-status">
+                    <span class="dot"></span>
+                    <span>Available for Work</span>
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="profil-info-side">
+                <div class="profil-header">
+                    <h3>Nevada Batrisyia Marsya Putri</h3>
+                    <p class="profil-role">Junior Web Developer</p>
+                </div>
+
+                <div class="profil-details">
+                    <div class="detail-item">
+                        <div class="detail-icon"><i class="fas fa-school"></i></div>
+                        <div class="detail-text">
+                            <span>Instansi</span>
+                            <strong>SMKN 1 Jenangan Ponorogo</strong>
+                            <p>Jurusan Rekayasa Perangkat Lunak (RPL), Kelas XII RPL C. Aktif mengikuti pembelajaran pemrograman dan pengembangan aplikasi web.</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <div class="detail-icon"><i class="fas fa-code"></i></div>
+                        <div class="detail-text">
+                            <span>Bidang yang Ditekuni</span>
+                            <strong>Web Development & Sistem Informasi</strong>
+                            <p>Mengembangkan aplikasi berbasis web dengan fokus pada frontend (React, JavaScript) dan backend (PHP, MySQL, PostgreSQL).</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <div class="detail-icon"><i class="fas fa-users"></i></div>
+                        <div class="detail-text">
+                            <span>Organisasi</span>
+                            <strong>Pramuka · PMR · Multimedia</strong>
+                            <p>Aktif berorganisasi di Pramuka (Wakil Ketua), PMR (Peer Educator), dan Multimedia (Bendahara I) dengan berbagai peran dan tanggung jawab.</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="detail-text">
+                            <span>Domisili</span>
+                            <strong>Ponorogo, Jawa Timur</strong>
+                            <p>Berdomisili di Ponorogo dan terbuka untuk kesempatan magang, freelance, atau kolaborasi project di seluruh Indonesia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pendidikan -->
+<section class="section section-alt" id="pendidikan">
+    <div class="container">
+        <p class="section-label">PENDIDIKAN</p>
+        <h2 class="section-title">Riwayat Pendidikan</h2>
+        <div class="edu-list">
+            <div class="edu-card"><div class="edu-year">2024 - Sekarang</div><div class="edu-info"><h3>SMKN 1 Jenangan Ponorogo</h3><p>Jurusan Rekayasa Perangkat Lunak (RPL)</p><span>Kelas XII RPL C</span></div></div>
+            <div class="edu-card"><div class="edu-year">2021 - 2024</div><div class="edu-info"><h3>MTsN 3 Ponorogo</h3><p>Madrasah Tsanawiyah Negeri</p></div></div>
+            <div class="edu-card"><div class="edu-year">2015 - 2021</div><div class="edu-info"><h3>SDN 3 Lembah</h3><p>Sekolah Dasar Negeri</p></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- Keahlian -->
+<section class="section" id="keahlian">
+    <div class="container">
+        <p class="section-label">KEMAMPUAN</p>
+        <h2 class="section-title">Skill yang Saya Pelajari</h2>
+        <div class="skill-grid">
+            <div class="skill-item"><i class="fab fa-html5"></i><h4>HTML</h4><p>Struktur & konten web</p></div>
+            <div class="skill-item"><i class="fab fa-css3-alt"></i><h4>CSS</h4><p>Tampilan & layout</p></div>
+            <div class="skill-item"><i class="fab fa-js"></i><h4>JavaScript</h4><p>Interaksi & dinamis</p></div>
+            <div class="skill-item"><i class="fab fa-php"></i><h4>PHP</h4><p>Backend & server-side</p></div>
+            <div class="skill-item"><i class="fas fa-database"></i><h4>Database</h4><p>MySQL & PostgreSQL</p></div>
+            <div class="skill-item"><i class="fab fa-react"></i><h4>React</h4><p>Library frontend</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Karya -->
+<section class="section section-alt" id="karya">
+    <div class="container">
+        <p class="section-label">PORTOFOLIO</p>
+        <h2 class="section-title">Project yang Pernah Dikerjakan</h2>
+        <div class="karya-grid">
+            <a href="http://localhost/toko-penjahit/app/" target="_blank" class="karya-card-link">
+                <div class="karya-card"><div class="karya-icon"><i class="fas fa-tshirt"></i></div><h3>Éclat by Beatricia</h3><p>Toko pakaian online dengan sistem katalog, keranjang, dan checkout. Dibangun dengan PHP, MySQL, dan React.</p><span class="karya-tag">E-Commerce</span></div>
+            </a>
+            <a href="http://localhost:5174" target="_blank" class="karya-card-link">
+                <div class="karya-card"><div class="karya-icon"><i class="fas fa-hospital"></i></div><h3>SICAKEP</h3><p>Sistem Informasi Catat Kepegawaian — aplikasi untuk mengelola data dan arsip pegawai rumah sakit. Dibangun dengan React & JavaScript.</p><span class="karya-tag">Sistem Informasi</span></div>
+            </a>
+            <div class="karya-card"><div class="karya-icon"><i class="fas fa-shopping-bag"></i></div><h3>Gerabah Store</h3><p>Website toko online untuk produk kerajinan gerabah.</p><span class="karya-tag">E-Commerce</span></div>
+            <div class="karya-card"><div class="karya-icon"><i class="fas fa-globe"></i></div><h3>Website Portofolio</h3><p>Website pribadi untuk menampilkan profil dan hasil karya.</p><span class="karya-tag">Portofolio</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- Kegiatan -->
+<section class="section" id="kegiatan">
+    <div class="container">
+        <p class="section-label">KEGIATAN & ORGANISASI</p>
+        <h2 class="section-title">Pengalaman di Luar Kelas</h2>
+        <p class="section-desc">Klik setiap card untuk melihat cerita lengkap dan dokumentasi fotonya.</p>
+        <div class="kegiatan-grid">
+            <a href="kegiatan-pramuka.html" class="kegiatan-card-link">
+                <div class="kegiatan-card">
+                    <div class="kegiatan-image">
+                        <img src="assets/images/PRAMUKA1.jpg" alt="Pramuka" onerror="this.src='https://via.placeholder.com/400x300/f2e8dc/b8926a?text=Pramuka'">
+                        <div class="kegiatan-badge">Organisasi</div>
+                    </div>
+                    <div class="kegiatan-body">
+                        <h3>Pramuka</h3>
+                        <p class="kegiatan-role">Wakil Ketua · 2025-2026</p>
+                        <p>Ketua pelaksana Diklat Pasus, MC Bukber Angkatan, peserta PASGA (Pramuka Garuda) 2025.</p>
+                        <span class="kegiatan-more">Baca Selengkapnya →</span>
+                    </div>
+                </div>
+            </a>
+            <a href="kegiatan-pmr.html" class="kegiatan-card-link">
+                <div class="kegiatan-card">
+                    <div class="kegiatan-image">
+                        <img src="assets/images/LOMBA_PMR.jpg" alt="PMR" onerror="this.src='https://via.placeholder.com/400x300/f2e8dc/b8926a?text=PMR'">
+                        <div class="kegiatan-badge">Kesehatan</div>
+                    </div>
+                    <div class="kegiatan-body">
+                        <h3>PMR</h3>
+                        <p class="kegiatan-role">Peer Educator</p>
+                        <p>Peserta Lomba GALAPALMERA bidang Kesehatan Remaja se-Jawa Terbuka. Aktif sebagai peer educator.</p>
+                        <span class="kegiatan-more">Baca Selengkapnya →</span>
+                    </div>
+                </div>
+            </a>
+            <a href="kegiatan-multimedia.html" class="kegiatan-card-link">
+                <div class="kegiatan-card">
+                    <div class="kegiatan-image">
+                        <img src="assets/images/MM.jpg" alt="Multimedia" onerror="this.src='https://via.placeholder.com/400x300/f2e8dc/b8926a?text=Multimedia'">
+                        <div class="kegiatan-badge">Kreatif</div>
+                    </div>
+                    <div class="kegiatan-body">
+                        <h3>Multimedia</h3>
+                        <p class="kegiatan-role">Bendahara I</p>
+                        <p>Event photography dan dokumentasi sekolah: MPLS, Drama Kolaborasi, Hari Nasional, dan lainnya.</p>
+                        <span class="kegiatan-more">Baca Selengkapnya →</span>
+                    </div>
+                </div>
+            </a>
+            <a href="kegiatan-pkl-industri.html" class="kegiatan-card-link">
+                <div class="kegiatan-card">
+                    <div class="kegiatan-image">
+                        <img src="assets/images/PKL_RSUD.jpg" alt="PKL" onerror="this.src='https://via.placeholder.com/400x300/f2e8dc/b8926a?text=PKL'">
+                        <div class="kegiatan-badge">Jurusan RPL</div>
+                    </div>
+                    <div class="kegiatan-body">
+                        <h3>PKL & Kunjungan Industri</h3>
+                        <p class="kegiatan-role">Praktik Kerja Lapangan</p>
+                        <p>PKL di RSUD bagian Teknologi Informasi, mengelola arsip pegawai. Belajar dunia kerja sesungguhnya.</p>
+                        <span class="kegiatan-more">Baca Selengkapnya →</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Prestasi -->
+<section class="section section-alt" id="prestasi">
+    <div class="container">
+        <p class="section-label">PRESTASI & PENCAPAIAN</p>
+        <h2 class="section-title">Hal yang Saya Banggakan</h2>
+        <div class="prestasi-grid-2">
+            <div class="prestasi-card-big">
+                <div class="prestasi-icon-big">🏆</div>
+                <h3>Aktif Berorganisasi</h3>
+                <p class="prestasi-desc">Dipercaya memimpin dan berkontribusi di berbagai organisasi sekolah dengan berbagai jabatan strategis.</p>
+                <ul class="prestasi-list">
+                    <li><strong>Wakil Ketua Pramuka</strong> · 2025-2026</li>
+                    <li><strong>Ketua Pelaksana</strong> Diklat Pasus Pramuka 2025</li>
+                    <li><strong>Sekretaris</strong> Bantara Umum 2026</li>
+                    <li><strong>Wakil Ketua Pelaksana</strong> Penerimaan Tamu Ambalan 2025</li>
+                    <li><strong>Peer Educator PMR</strong> — Peserta GALAPALMERA se-Jawa</li>
+                    <li><strong>Bendahara I Multimedia</strong> · 2024-2025</li>
+                </ul>
+                <div class="prestasi-tags">
+                    <span>Pramuka</span><span>PMR</span><span>Multimedia</span><span>Leadership</span>
+                </div>
+            </div>
+            <div class="prestasi-card-big">
+                <div class="prestasi-icon-big">💻</div>
+                <h3>Sebagai Siswa RPL</h3>
+                <p class="prestasi-desc">Mengembangkan kemampuan teknis di bidang Rekayasa Perangkat Lunak melalui project nyata dan pengalaman industri.</p>
+                <ul class="prestasi-list">
+                    <li><strong>Membangun Éclat by Beatricia</strong> — Toko online dengan PHP, MySQL & React</li>
+                    <li><strong>Membangun Website Portofolio</strong> — HTML, CSS & JavaScript</li>
+                    <li><strong>SICAKEP</strong> — Sistem Informasi Catat Kepegawaian (React)</li>
+                    <li><strong>PKL di RSUD</strong> — Bagian Teknologi Informasi</li>
+                    <li><strong>Kunjungan Industri</strong> — Belajar dunia kerja sesungguhnya</li>
+                </ul>
+                <div class="prestasi-tags">
+                    <span>Web Development</span><span>PHP</span><span>React</span><span>MySQL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sertifikat -->
+<!-- Sertifikat -->
+<section class="section" id="sertifikat">
+    <div class="container">
+        <p class="section-label">SERTIFIKAT & PENGHARGAAN</p>
+        <h2 class="section-title">Sertifikat Saya</h2>
+        <p class="section-desc">Dokumentasi resmi dari kegiatan dan kompetisi yang saya ikuti.</p>
+        
+        <div class="sertifikat-grid">
+            <!-- GALA -->
+            <div class="sertifikat-card">
+                <div class="sertifikat-thumb">
+                    <img src="assets/sertifikat/SERTIFIKAT_GALA.jpg" alt="Sertifikat GALAPALMERA" onerror="this.src='https://via.placeholder.com/400x400/f2e8dc/b8926a?text=GALA'">
+                </div>
+                <div class="sertifikat-info">
+                    <span class="sertifikat-tag">Lomba PMR · 2026</span>
+                    <h3>GALAPALMERA</h3>
+                    <p>Galang Palang Merah Remaja — Kesehatan Remaja se-Jawa Terbuka.</p>
+                    <a href="assets/sertifikat/SERTIFIKAT_GALA.jpg" target="_blank" class="sertifikat-link">
+                        Lihat <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- KI -->
+            <div class="sertifikat-card">
+                <div class="sertifikat-thumb">
+                    <img src="assets/sertifikat/SERTIFIKAT_KI.jpg" alt="Sertifikat Kunjungan Industri" onerror="this.src='https://via.placeholder.com/400x400/f2e8dc/b8926a?text=KI'">
+                </div>
+                <div class="sertifikat-info">
+                    <span class="sertifikat-tag">Kunjungan Industri · 2026</span>
+                    <h3>Gamelab PT Educa Studio</h3>
+                    <p>Kunjungan industri jurusan RPL ke Salatiga, 6 Januari 2026.</p>
+                    <a href="assets/sertifikat/SERTIFIKAT_KI.jpg" target="_blank" class="sertifikat-link">
+                        Lihat <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- PASGA -->
+            <div class="sertifikat-card">
+                <div class="sertifikat-thumb">
+                    <img src="assets/sertifikat/SERTIF_PASGA.jpg" alt="Sertifikat PASGA" onerror="this.src='https://via.placeholder.com/400x400/f2e8dc/b8926a?text=PASGA'">
+                </div>
+                <div class="sertifikat-info">
+                    <span class="sertifikat-tag">Pramuka · 2025</span>
+                    <h3>PASGA (Pramuka Garuda)</h3>
+                    <p>Sertifikat Pramuka Garuda — tingkatan tertinggi dalam Pramuka.</p>
+                    <a href="assets/sertifikat/SERTIF_PASGA.jpg" target="_blank" class="sertifikat-link">
+                        Lihat <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- JOTA-JOTI -->
+            <div class="sertifikat-card">
+                <div class="sertifikat-thumb">
+                    <img src="assets/sertifikat/SERTIF_JOTAJOTI.jpg" alt="Sertifikat JOTA-JOTI" onerror="this.src='https://via.placeholder.com/400x400/f2e8dc/b8926a?text=JOTA-JOTI'">
+                </div>
+                <div class="sertifikat-info">
+                    <span class="sertifikat-tag">Pramuka · 2025</span>
+                    <h3>JOTA-JOTI</h3>
+                    <p>Jamboree on the Air & Jamboree on the Internet — kegiatan Pramuka tingkat internasional.</p>
+                    <a href="assets/sertifikat/SERTIF_JOTAJOTI.jpg" target="_blank" class="sertifikat-link">
+                        Lihat <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Website Usaha -->
+<section class="section" id="usaha">
+    <div class="container">
+        <p class="section-label">WEBSITE USAHA</p>
+        <h2 class="section-title">Kunjungi Toko Saya</h2>
+        <div class="usaha-card">
+            <div class="usaha-icon"><i class="fas fa-store"></i></div>
+            <div class="usaha-info">
+                <h3><i class="fas fa-circle-check"></i> Éclat by Beatricia</h3>
+                <p>Menyediakan produk fashion berkualitas seperti kemeja, kaos, celana, dan pakaian lainnya. Dibuat dengan teliti dan bahan pilihan.</p>
+                <a href="http://localhost/toko-penjahit/app/" target="_blank" class="btn-usaha"><i class="fas fa-external-link-alt"></i> Kunjungi Toko</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Kontak -->
+<section class="section section-alt" id="kontak">
+    <div class="container">
+        <p class="section-label">KONTAK</p>
+        <h2 class="section-title">Mari Terhubung</h2>
+        <p class="section-desc">Saya terbuka untuk diskusi, kolaborasi, atau sekadar bertukar pikiran. Jangan ragu menghubungi saya melalui salah satu kanal berikut.</p>
+        <div class="kontak-wrap">
+            <div class="kontak-info">
+                <h3>Informasi Kontak</h3>
+                <p>Silakan hubungi saya melalui:</p>
+                <div class="kontak-item">
+                    <div class="kontak-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="kontak-detail"><span>Email</span><a href="mailto:marsya25putri@gmail.com">marsya25putri@gmail.com</a></div>
+                </div>
+                <div class="kontak-item">
+                    <div class="kontak-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="kontak-detail"><span>WhatsApp</span><a href="https://wa.me/6289524085894" target="_blank">0895-2408-5894</a></div>
+                </div>
+                <div class="kontak-item">
+                    <div class="kontak-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="kontak-detail"><span>Lokasi</span><p>Ponorogo, Jawa Timur</p></div>
+                </div>
+            </div>
+            <div class="kontak-social">
+                <h3>Media Sosial</h3>
+                <p>Ikuti saya di:</p>
+                <a href="https://instagram.com/nevadamarsya_" target="_blank" class="social-card instagram">
+                    <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                    <div class="social-text"><span>Instagram</span><strong>@nevadamarsya_</strong></div>
+                    <i class="fas fa-arrow-right social-arrow"></i>
+                </a>
+                <a href="https://github.com/marsya25putri-web" target="_blank" class="social-card github">
+                    <div class="social-icon"><i class="fab fa-github"></i></div>
+                    <div class="social-text"><span>GitHub</span><strong>marsya25putri-web</strong></div>
+                    <i class="fas fa-arrow-right social-arrow"></i>
+                </a>
+                <a href="mailto:marsya25putri@gmail.com" class="social-card email">
+                    <div class="social-icon"><i class="fas fa-paper-plane"></i></div>
+                    <div class="social-text"><span>Kirim Pesan</span><strong>Hubungi via Email</strong></div>
+                    <i class="fas fa-arrow-right social-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-brand">
+            <h3>Nevada Marsya</h3>
+            <p class="footer-tagline">Junior Web Developer · Ponorogo, Jawa Timur</p>
+            <p class="footer-desc">Membangun website modern, fungsional, dan nyaman digunakan.</p>
+            <div class="footer-social">
+                <a href="https://instagram.com/nevadamarsya_" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/marsya25putri-web" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:marsya25putri@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/6289524085894" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4>Navigasi</h4>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#keahlian">Kemampuan</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Portofolio</h4>
+            <ul>
+                <li><a href="#karya">Project</a></li>
+                <li><a href="#kegiatan">Kegiatan</a></li>
+                <li><a href="#prestasi">Prestasi</a></li>
+                <li><a href="#sertifikat">Sertifikat</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Kontak</h4>
+            <ul class="footer-contact">
+                <li><i class="fas fa-envelope"></i><a href="mailto:marsya25putri@gmail.com">marsya25putri@gmail.com</a></li>
+                <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/6289524085894" target="_blank">0895-2408-5894</a></li>
+                <li><i class="fas fa-map-marker-alt"></i><span>Ponorogo, Jawa Timur</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 <strong>Nevada Batrisyia Marsya Putri</strong>. All Rights Reserved.</p>
+        <p class="footer-made">Dibuat dengan <i class="fas fa-heart"></i> menggunakan HTML, CSS & JavaScript</p>
+    </div>
+</footer>
+
+</body>
+</html>
